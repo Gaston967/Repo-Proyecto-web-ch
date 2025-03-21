@@ -1,0 +1,56 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+.menu
+{
+    display: flex;
+    justify-content: space-between;
+    background-color: cadetblue;
+    align-items: center;
+    padding: 10px 10px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+}
+
+.menu .logo{
+    color: rgb(255, 255, 255);
+    font-size: 15px;
+    text-decoration: none;
+
+}
+
+.linkMenu {
+list-style-type: none;
+display: flex;
+}
+
+.linkMenu li{
+    margin-left: 20px;
+}
+
+.linkMenu a{
+    color: azure;
+    text-decoration: none;
+    font-size: 20px;
+
+}
+
+.icono{
+    width: 80px;
+    height: 80px;
+    border: 2px solid blue;
+    border-radius: 100%;
+    box-shadow: 4px 4px 4px rgb(0, 0, 0.2);
+    object-fit: contain;
+    opacity: 90%;
+
+    
+}
